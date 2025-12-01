@@ -1,0 +1,24 @@
+# Airflow
+airflow.db
+airflow.db-shm
+airflow.db-wal
+airflow.cfg
+logs/
+__pycache__/
+*.pyc
+
+# Sensitive
+*.env
+simple_auth_manager_passwords.json.generated
+
+# Python
+venv/
+airflow_venv/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
